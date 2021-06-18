@@ -25,7 +25,6 @@ export default function App() {
 
   return (
     <View style={{ marginTop: 99 }}>
-      <Text>___________________Editor Start_________________</Text>
       <RichEditor
         ref={(r) => richText == r}
         initialContentHTML={'Hello <b>World</b> <p>this is a new paragraph</p> <p>this is another new paragraph</p>'}
